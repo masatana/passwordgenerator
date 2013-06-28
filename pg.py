@@ -23,7 +23,7 @@ class PasswordGenerator:
         return self.__gen_password(method)[:limit]
 
 def main():
-    p = PasswordGenerator(master = 'ê≥ç_', domain = 'facebook')
+    p = PasswordGenerator(master = 'Ê≠£Êµ©', domain = 'facebook')
     print p.get_password()
 
 if __name__ == '__main__':
